@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JROTC Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Titillium Web', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header, footer {
+      text-align: center;
+      background-color: #000;
+      color: #DAA520;
+      padding: 20px;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 10px 0;
+      border-top: 1px solid #333;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      color: #DAA520;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .gallery-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .album {
+      margin-bottom: 50px;
+    }
+
+    .album h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #DAA520;
+      margin-bottom: 10px;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .photos img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid #DAA520;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Photo Gallery</h1>
+    <p>Explore our memories from the field</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="clubs.html">Clubs</a>
+    <a href="events.html">Events</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="donate.html">Donate</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="gallery-section">
+
+    <div class="album">
+      <h2>Military Ball</h2>
+      <div class="photos">
+        <img src="https://i.imgur.com/1qYQkFg.jpg" alt="Military Ball 1">
+        <img src="https://i.imgur.com/M5H4Ouj.jpg" alt="Military Ball 2">
+        <img src="https://i.imgur.com/tu1OH7S.jpg" alt="Military Ball 3">
+      </div>
+    </div>
+
+    <div class="album">
+      <h2>Field Day</h2>
+      <div class="photos">
+        <img src="https://i.imgur.com/H0cpZ4T.jpg" alt="Field Day 1">
+        <img src="https://i.imgur.com/vfQ0t0f.jpg" alt="Field Day 2">
+        <img src="https://i.imgur.com/1Em90mS.jpg" alt="Field Day 3">
+      </div>
+    </div>
+
+    <div class="album">
+      <h2>Marine Corps Birthday</h2>
+      <div class="photos">
+        <img src="https://i.imgur.com/9oTgZKs.jpg" alt="Birthday 1">
+        <img src="https://i.imgur.com/YEVW7qZ.jpg" alt="Birthday 2">
+        <img src="https://i.imgur.com/CqTV8nI.jpg" alt="Birthday 3">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Lion Battalion | Olympic Heights MCJROTC</p>
+  </footer>
+
+</body>
+</html>
 
