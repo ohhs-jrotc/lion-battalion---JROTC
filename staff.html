@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Staff - Lion Battalion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Titillium Web', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header, footer {
+      text-align: center;
+      background-color: #000;
+      color: #B22222;
+      padding: 20px;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 10px 0;
+      border-top: 1px solid #333;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      color: #B22222;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .staff-container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .staff-card {
+      background-color: #111;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .staff-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .staff-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .staff-card h3 {
+      color: #B22222;
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 10px;
+    }
+
+    .staff-card p {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Meet Our Staff</h1>
+    <p>Leadership and dedication define the Lion Battalion.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="clubs.html">Clubs</a>
+    <a href="events.html">Events</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="donate.html">Donate</a>
+    <a href="staff.html">Staff</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="staff-container">
+    <!-- Exemplo de card (troque o link da imagem e os dados) -->
+    <div class="staff-card">
+      <img src="images/commander.jpg" alt="Battalion Commander">
+      <h3>Battalion Commander</h3>
+      <p>Leads all cadets, sets the standard, and ensures success in every battalion activity.</p>
+    </div>
+
+    <div class="staff-card">
+      <img src="images/executive_officer.jpg" alt="Executive Officer">
+      <h3>Executive Officer</h3>
+      <p>Assists the commander, manages staff coordination, and oversees operations.</p>
+    </div>
+
+    <div class="staff-card">
+      <img src="images/sergeant_major.jpg" alt="Sergeant Major">
+      <h3>Sergeant Major</h3>
+      <p>Maintains discipline and supports leadership in training and daily routines.</p>
+    </div>
+
+    <!-- Continue adicionando os cards com base na ordem do link que você me mandou -->
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Lion Battalion | Olympic Heights MCJROTC</p>
+  </footer>
+
+</body>
+</html>
 
